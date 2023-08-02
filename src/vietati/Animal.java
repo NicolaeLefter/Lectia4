@@ -6,29 +6,43 @@ public class Animal {
     private int varsta;
     private String alimenatie;
     private int durataViata;
+    private String reproducere:
 
-    public String getNume(){
-        return  nume;
+    public String getNume() {
+        return nume;
     }
-    private int getDurataViata(){
+    public String getReproducere(){
+        return reproducere;
+    }
+
+    private int getDurataViata() {
         return durataViata;
     }
-    public int getVarsta(){
+
+    public int getVarsta() {
         return varsta;
     }
-    public String getAlimenatie(){
+
+    public String getAlimenatie() {
         return alimenatie;
     }
-    private void setDurataViata( int durataViata){
+    public void setReproducere(String reproducere){
+        this.reproducere = reproducere;
+    }
+
+    public void setDurataViata(int durataViata) {
         this.durataViata = durataViata;
     }
-    public void setNume( String nume){
+
+    public void setNume(String nume) {
         this.nume = nume;
     }
-    public void setVarsta(int varsta){
+
+    public void setVarsta(int varsta) {
         this.varsta = varsta;
     }
-    public void setAlimenatie( String alimenatie){
+
+    public void setAlimenatie(String alimenatie) {
         this.alimenatie = alimenatie;
     }
 
